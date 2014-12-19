@@ -114,6 +114,7 @@ libBionicStandardTests_src_files := \
     time_test.cpp \
     uchar_test.cpp \
     unistd_test.cpp \
+    utmp_test.cpp \
     wchar_test.cpp \
     utmp_test.cpp \
 

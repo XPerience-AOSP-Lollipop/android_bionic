@@ -23,4 +23,4 @@ TEST(utmp, login_tty) {
   // login_tty is tested indirectly by the openpty and forkpty tests.
   // This test just checks that we're exporting the symbol independently.
   ASSERT_EQ(-1, login_tty(-1));
-} 
+}
